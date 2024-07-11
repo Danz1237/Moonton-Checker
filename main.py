@@ -6,7 +6,7 @@
 # File           : main.py                                 #
 ############################################################
 
-import requests, os, sys, hashlib, json
+import request, os, sys, hashlib, json
 from multiprocessing.pool import ThreadPool
 
 if sys.version_info.major != 2:
